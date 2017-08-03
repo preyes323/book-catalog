@@ -1,1 +1,1 @@
-web: bundle exec shotgun --server=thin -p ${PORT:-3000}
+web: bundle exec shotgun -p $PORT
